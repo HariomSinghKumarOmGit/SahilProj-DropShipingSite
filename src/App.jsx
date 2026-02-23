@@ -7,6 +7,7 @@ import Contact from './component/Contact'
 
 const App = () => {
   return (
+    <>
     {/* Nev bar is there is above rute but data will lode in rutes */}
       <Nevbar/>
       {/* Hair u have to give specific rute to each page thats imp */}
@@ -17,6 +18,7 @@ const App = () => {
         {/* <Route path='/product' element={<Product/>} /> */}
         
       </Routes>
+    </>
   )
 }
 
